@@ -1,0 +1,34 @@
+.aside-container {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 93.4vh;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80px;
+}
+
+.nav-container a {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.nav-container a:hover {
+  transform: scale(1.04);
+  background-color: #ebe9e9;
+}
